@@ -41,6 +41,7 @@ https://appetjpz4tj8166.xet.citv.cn/v1/goods/goods_detail/course_2wzzzY85uZVptbp
 ### OpenCV工作流教程 - Python SDK版本
 https://appetjpz4tj8166.xet.citv.cn/v1/goods/goods_detail/course_2glcwkJUR8Hq7OXL3yUp2OEIGRY?
 
+![](example.png)
 
 ### 合作联系
 OpenCV与深度学习开发合作
