@@ -12,6 +12,10 @@ OpenCV低代码开发工作流引擎SDK 作者为贾志刚。
 
 OpenCV学堂创始人、OpenCV实验大师平台软件作者、OpenCV开发专家、OpenVINO中文社区创始成员、2025 年度 NVIDIA 中国开发者最具价值专家、英特尔创新大使、OpenCV开发培训讲师、OpenCV中国认证课程讲师
 
+![](opencv_ca.jpg)
+![](opencv_yolo26.jpg)
+![](opencv_ocr.jpg)
+
 #### 安装教程
 
  - 支持Win10、Win11 系统
