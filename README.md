@@ -4,9 +4,13 @@ The primary application scenario is in the field of machine vision. The OpenCV l
 # OpenCV实验大师工具平台
 
 #### 介绍
-主要应用场景是机器视觉领域，OpenCV低代码开发工作流引擎SDK，支持C++、C#、Python，实现80%的OpenCV开发工作零代码，OpenCV开发效率提升十倍。OpenCV低代码开发工作流引擎支持找点、找边、找线段、找圆、找轮廓、支持图像预处理、图像增强、形态学习处理、边缘模板匹配、卡尺测量。最新版本赖于OpenCV4.10。
+主要应用场景是机器视觉领域，OpenCV低代码开发工作流引擎SDK，支持C++、C#、Python，实现80%的OpenCV开发工作零代码，OpenCV开发效率提升十倍。OpenCV低代码开发工作流引擎支持找点、找边、找线段、找圆、找轮廓、支持图像预处理、图像增强、形态学习处理、边缘模板匹配、卡尺测量。唯一依赖第三方库OpenCV4.x。
 
-OpenCV低代码开发工作流引擎SDK 作者为贾志刚。
+### 最新版本
+OpenCV实验大师工具软件最新版本为v2.0版本，支持YOLO系列模型训练，导出、量化、推理、SDK集成全部功能，支持工业相机集成部署，适配RK3588、Jetson AGX、算能1684等边缘AI平台，同时支持OCR、工作流算子配方部署复用。
+
+### 软件作者
+OpenCV低代码开发工作流引擎SDK 作者为贾志刚，毕业于山东大学 软件学院 软件工程专业
 
 《Java数字图像处理-编程技巧与应用实践》、《OpenCV Android开发实战》、《OpenCV4应用开发-入门、进阶与工程化实践》三本书籍作者。
 
@@ -19,8 +23,9 @@ OpenCV学堂创始人、OpenCV实验大师平台软件作者、OpenCV开发专�
 #### 安装教程
 
  - 支持Win10、Win11 系统
-
- - 最新v1.4.1安装包 oemts_win10_p311_installer.zip
+ - 最新OpenCV实验大师v2.0 安装包下载地址：
+ https://share.weiyun.com/tgoxerG9
+ - 过往历史版本 v1.4.1安装包 oemts_win10_p311_installer.zip
 
 1. Python版本支持Python3.11.5版本
 2. C#版本支持.Net框架，VS2022
