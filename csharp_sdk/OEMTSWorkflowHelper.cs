@@ -4,7 +4,36 @@ namespace qiantong_oemst
 {
     public class OEMTSWorkflowHelper
     {
-
+        /********* C++ YOLO部署类 ****************/
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern IntPtr yoloDetClassInit2();
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void delYOLODetInstance(IntPtr p);
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void initYOLODetector(IntPtr p, char[] model_file, char[] label_file, float conf);
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void det_infer(IntPtr p, IntPtr src, IntPtr dst, int w, int h);
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern int getYOLODetBoxes(IntPtr p);
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void getYOLODetInfos(IntPtr p, [In, Out] YOLOBoxInfo[] boxes);
+        
+        // create yolo segment
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern IntPtr yoloSegClassInit2();
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void delYOLOSegInstance(IntPtr p);
+        // segment infer
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void initYOLOSegment(IntPtr p, char[] model_file, char[] label_file, float conf);
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void seg_infer(IntPtr p, IntPtr src, IntPtr dst, int w, int h);
+        // query number of segments
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern int getYOLOSegBoxes(IntPtr p);
+        // yolo segment info query 
+        [DllImport("oemts_workflow_engine.dll")]
+        public static extern void getYOLOSegInfos(IntPtr p, [In, Out] YOLOBoxInfo[] boxes);
         [DllImport("oemts_workflow_engine.dll")]
         public static extern IntPtr workflowClassInit2();  //工作流指针
         [DllImport("oemts_workflow_engine.dll")]
@@ -15,6 +44,18 @@ namespace qiantong_oemst
         public static extern void runWorkflow(IntPtr p, IntPtr da, IntPtr dst, int w, int h);//运行工作流（参数 工作流对象，输入图像指针，输出图像指针，输出宽，高）
         [DllImport("oemts_workflow_engine.dll")]
         public static extern void getWrapperContoursInfo(IntPtr p, [In, Out] ContourInfoWrapper[] contoursInfo);//获取轮廓信息
+
+        public struct YOLOBoxInfo
+        {
+            public int id;             //结果类别id
+            public float score;   //结果置信度
+            public int x;
+            public int y;
+            public int width;
+            public int height;
+            public int area;
+        };
+
         public struct ContourInfoWrapper
         {
             public float area;
