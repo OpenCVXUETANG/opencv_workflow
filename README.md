@@ -42,13 +42,13 @@ https://appetjpz4tj8166.xet.citv.cn/p/course/ecourse/preview/course_2XtK2sEi7HNU
 支持版本Python3.11.x SDK。
 
 ### OpenCV工作流C++教程 - QT集成版本
-https://appetjpz4tj8166.xet.citv.cn/v1/goods/goods_detail/p_66d65341e4b023c06c898401?type=3&type=3&channel_id=
+https://appetjpz4tj8166.h5.xet.pomoho.com/v1/goods/goods_detail/p_66d65341e4b023c06c898401?type=3&channel_id=
 
 ### OpenCV工作流C#教程 - 机器视觉版
-https://appetjpz4tj8166.xet.citv.cn/v1/goods/goods_detail/course_2wzzzY85uZVptbpxgMW7AR1LZ1B?
+https://appetjpz4tj8166.h5.xet.pomoho.com/v1/goods/goods_detail/course_2wzzzY85uZVptbpxgMW7AR1LZ1B
 
 ### OpenCV工作流教程 - Python SDK版本
-https://appetjpz4tj8166.xet.citv.cn/v1/goods/goods_detail/course_2glcwkJUR8Hq7OXL3yUp2OEIGRY?
+https://appetjpz4tj8166.h5.xet.pomoho.com/v1/goods/goods_detail/course_2glcwkJUR8Hq7OXL3yUp2OEIGRY
 
 ![](example.png)
 
@@ -58,4 +58,7 @@ OpenCV与深度学习开发合作
 微信: bfnh2qxx (注明：合作)
 
 技术讨论QQ群: 934105010 (注明: 学习)
+
+最新2026年深度学习课程 - 零样本工业缺陷检测 - 多模态与视觉大模型开发实战
+![](VLM_Cover.png)
 
