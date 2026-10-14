@@ -34,10 +34,13 @@ OpenCV学堂创始人、OpenCV实验大师平台软件作者、OpenCV开发专�
 5. 永久有效devkey - c6579f12b8fd4feca4a251d33de22f0c
 
 
-#### 特别提示
+# 特别提示
 
-1.  OpenCV实验大师工具软件下载地址（OpenCV算子工作流设计软件）
-https://appetjpz4tj8166.xet.citv.cn/p/course/ecourse/preview/course_2XtK2sEi7HNUwt2WscP6tFwxpIb?
+### OpenCV学堂课程主页
+https://appetjpz4tj8166.h5.xet.pomoho.com/
+
+### OpenCV实验大师工具软件下载地址（OpenCV算子工作流设计软件）- 腾讯网盘
+https://share.weiyun.com/tgoxerG9
 
 支持版本Python3.11.x SDK。
 
